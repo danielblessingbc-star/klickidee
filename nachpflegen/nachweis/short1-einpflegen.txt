@@ -1,0 +1,2 @@
+geschrieben /tmp/neu/prompts/mailkette-aufgaben.json
+geschrieben /tmp/neu/videos/mailkette-aufgaben.json

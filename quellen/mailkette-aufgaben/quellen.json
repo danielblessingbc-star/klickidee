@@ -1,0 +1,8 @@
+{
+  "hinweis": "Abzüge der Paperclip-Dokumente. Mit `node nachpflegen/holen.mjs mailkette-aufgaben` neu holen (braucht PAPERCLIP_API_KEY).",
+  "dokumente": [
+    { "datei": "prompt-test.md", "aufgabe": "MED-16", "schluessel": "prompt-test", "revision": 3 },
+    { "datei": "skript.md", "aufgabe": "MED-16", "schluessel": "skript", "revision": 4 },
+    { "datei": "upload-paket.md", "aufgabe": "MED-20", "schluessel": "upload-paket", "revision": 11 }
+  ]
+}

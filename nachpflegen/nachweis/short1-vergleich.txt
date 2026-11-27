@@ -1,0 +1,4 @@
+ABWEICHUNG prompts/mailkette-aufgaben.json  grenze
+  bisher: "Fristen in der Original-Mail prüfen. In beiden Tests steht bei den Exponaten die Frist „Zur Messe, 16.03.2027“. Keine Mail nennt dafür eine Frist. Der 16.03. ist nur der erste Messetag."
+  neu:    "Fristen in der Original-Mail prüfen. In beiden Durchläufen steht bei den Exponaten als Frist „Zur Messe, 16.03.2027“. Keine Mail nennt dafür eine Frist. Der 16.03. ist nur der erste Messetag (Mail 1)."
+1 Abweichung(en)

@@ -1,0 +1,34 @@
+OK     Prompt-Datei vollständig
+OK     Ergebnis mit Werkzeug, Datum, Tabelle
+OK     Video-Datei vollständig
+OK     Prompt und Video verweisen aufeinander
+OK     Vorschaubild lokal vorhanden (WebP)
+OK     Quelle Prompt-Test vorhanden
+OK     Prompt gleich Prompt-Test (Zeichen für Zeichen)
+OK     Prompt gleich Prompt in der YouTube-Beschreibung
+OK     Seiten gebaut (node build.mjs)
+OK     Prompt auf der Seite gleich Datei
+OK     Stempel „Getestet · Werkzeug · Datum“ auf der Seite
+OK     keine verbotenen Wörter: Prompt-Seite
+OK     keine verbotenen Wörter: Video-Seite
+OK     keine verbotenen Wörter: Datendateien
+OK     Video-Seite: kein iframe vor dem Klick
+OK     Video-Seite: Hinweis „Daten an YouTube übertragen“
+OK     Video-Seite: Player trägt die YouTube-ID
+OK     Prompt-Seite: nichts Fremdes im Quelltext geladen
+OK     Prompt-Seite: Inhalts-Richtlinie erlaubt nur eigene Quellen und youtube-nocookie
+OK     Video-Seite: nichts Fremdes im Quelltext geladen
+OK     Video-Seite: Inhalts-Richtlinie erlaubt nur eigene Quellen und youtube-nocookie
+OK     seite.js: einziges Fremdziel youtube-nocookie.com  https://www.youtube-nocookie.com/embed/
+OK     interne Links der beiden Seiten haben ein Ziel
+OK     interne Links sind relativ
+OK     „Dieses Video auch auf“ zeigt genau die Plattformen aus der Datei
+OK     Plattform-Links sind Video-Links, keine Profil-Links
+OK     YouTube-Video ist öffentlich (oEmbed 200)  200
+OK     externer Link erreichbar: https://www.youtube.com/shorts/O9mtddZBN4E  200
+OK     Prompt-Seite unter der Vorschau-Adresse erreichbar  https://danielblessingbc-star.github.io/klickidee/inhalte/prompts/mailkette-aufgaben/ → 200
+OK     Video-Seite unter der Vorschau-Adresse erreichbar  https://danielblessingbc-star.github.io/klickidee/videos/mailkette-aufgaben/ → 200
+OK     Startseite unter der Vorschau-Adresse erreichbar  https://danielblessingbc-star.github.io/klickidee/ → 200
+OK     Startseite „Neuestes“ zeigt das jüngste Video  mailkette-aufgaben
+
+32/32 Prüfpunkte erfüllt
