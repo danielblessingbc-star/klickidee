@@ -1,0 +1,24 @@
+{
+  "slug": "mailkette-aufgaben",
+  "datum": "2026-11-27",
+  "youtube": "O9mtddZBN4E",
+  "plattformen": {},
+  "vorschau": "vorschau-short1.webp",
+  "vorschauAlt": "Titelbild: KI-Prompt: Mailkette → Aufgabenliste, daneben eine Liste mit vier Kästchen",
+  "thema": "praxis",
+  "schlagworte": ["E-Mail", "Protokoll"],
+  "promptTitel": "Wer macht was bis wann? Lange Mailketten auf Aufgaben bringen",
+  "seoTitel": "Lange E-Mail-Kette auf Aufgaben bringen: Prompt zum Kopieren",
+  "promptBeschreibung": "Prompt, der aus einer langen Mailkette eine Tabelle mit Entschiedenem, Offenem, Verantwortlichen und Fristen macht. Getestet, mit Ergebnis und Grenze.",
+  "aufgabe": "Du hast eine lange Mailkette zu einem Projekt und willst nur wissen: Was ist entschieden, was ist offen, und wer macht was bis wann?",
+  "warum": [
+    { "baustein": "Nur Entschiedenes und Offenes, mit Verantwortlichen und Frist", "text": "Das „nur“ heißt: kein Smalltalk, keine verworfenen Ideen. Aus der Zusammenfassung wird eine Liste mit „Wer“ und „Bis wann“." },
+    { "baustein": "Ich bin [dein Name]", "text": "Damit ist klar, wer fragt. Setze hier deinen eigenen Namen ein." },
+    { "baustein": "Widersprechen sich Mails, nenne beide Stellen", "text": "Passen zwei Mails nicht zusammen, siehst du beide Stellen und kannst selbst nachlesen." }
+  ],
+  "ergebnisZusatz": "Die gezeigten Zellen sind unverändert aus der Antwort. Getestet ohne Anmeldung, mit erfundenen Mails (14 Mails zu einem Messeauftritt).",
+  "grenzeVorsatz": "Fristen in der Original-Mail prüfen.",
+  "datenschutz": true,
+  "videoBeschreibung": "In unter einer Minute: Wie aus 14 Mails eine Liste mit Entschiedenem und Offenem wird. Mit echtem Test und ehrlicher Grenze.",
+  "kiHinweis": "Die Erzählstimme ist eine KI-Stimme. Prompt und Ergebnis stammen aus einem echten Test. Alles wurde vor der Veröffentlichung von einem Menschen geprüft."
+}
