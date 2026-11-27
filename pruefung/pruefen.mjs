@@ -39,7 +39,7 @@ for (const p of seiten) {
   const breite = await seite.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth); ok(`kein Seitwärts-Scrollen am Handy ${p}`, breite);
   const fuss = await seite.$$eval('.fuss a', (a) => a.map((x) => x.getAttribute('href'))); ok(`Impressum+Datenschutz im Fuß ${p}`, fuss.some((h) => h.includes('impressum')) && fuss.some((h) => h.includes('datenschutz')));
 }
-for (const l of linkSet) { const pth = l.split('#')[0]; const f = join(DOCS, pth); ok(`Link-Ziel ${l}`, existsSync(f) && (!statSync(f).isDirectory() || existsSync(join(f, 'index.html')))); }
+for (const l of linkSet) { const pre = new URL(base).pathname.replace(/\/$/, ''); const pth = l.split('#')[0].slice(pre.length) || '/'; const f = join(DOCS, pth); ok(`Link-Ziel ${l}`, existsSync(f) && (!statSync(f).isDirectory() || existsSync(join(f, 'index.html')))); }
 
 // 2. Kein Fremdkontakt ohne Klick, keine Cookies, keine Fehler
 ok('keine fremden Anfragen vor dem Klick', extern.size === 0, [...extern].join(','));
