@@ -1,0 +1,30 @@
+{
+  "slug": "mailkette-aufgaben",
+  "titel": "Wer macht was bis wann? Lange Mailketten auf Aufgaben bringen",
+  "seoTitel": "Lange E-Mail-Kette auf Aufgaben bringen: Prompt zum Kopieren",
+  "beschreibung": "Prompt, der aus einer langen Mailkette eine Tabelle mit Entschiedenem, Offenem, Verantwortlichen und Fristen macht. Getestet, mit Ergebnis und Grenze.",
+  "datum": "2026-11-27",
+  "thema": "praxis",
+  "schlagworte": ["E-Mail", "Protokoll"],
+  "aufgabe": "Du hast eine lange Mailkette zu einem Projekt und willst nur wissen: Was ist entschieden, was ist offen, und wer macht was bis wann?",
+  "prompt": "Unten steht eine Mailkette zu unserem Messeauftritt. Ich bin [dein Name].\nGib mir nur, was entschieden wurde und was noch offen ist – jeweils mit Verantwortlichen und Frist.\nAls Tabelle: Punkt | entschieden/offen | Wer | Bis wann | Quelle (Absender, Datum).\nWidersprechen sich Mails, nenne beide Stellen.\n\n[deine Mails]",
+  "warum": [
+    { "baustein": "Nur Entschiedenes und Offenes, mit Verantwortlichen und Frist", "text": "Das „nur“ heißt: kein Smalltalk, keine verworfenen Ideen. Aus der Zusammenfassung wird eine Liste mit „Wer“ und „Bis wann“." },
+    { "baustein": "Ich bin [dein Name]", "text": "Damit ist klar, wer fragt. Setze hier deinen eigenen Namen ein." },
+    { "baustein": "Widersprechen sich Mails, nenne beide Stellen", "text": "Passen zwei Mails nicht zusammen, siehst du beide Stellen und kannst selbst nachlesen." }
+  ],
+  "ergebnis": {
+    "werkzeug": "ChatGPT",
+    "datum": "26.11.2026",
+    "gekuerzt": true,
+    "hinweis": "Gekürzt: 2 von 16 Zeilen, Spalte „Quelle“ weggelassen. Die gezeigten Zellen sind unverändert aus der Antwort. Getestet ohne Anmeldung, mit erfundenen Mails (14 Mails zu einem Messeauftritt).",
+    "spalten": ["Punkt", "entschieden/offen", "Wer", "Bis wann"],
+    "zeilen": [
+      ["Flyer-Druckfreigabe", "Offen: Mira muss die Druckfreigabe für die Flyer erteilen.", "Mira Okafor", "26.02.2027 (Freitag)"],
+      ["Exponate", "Entschieden: Ventil VS-40, Ventil VS-80 und großes Schnittmodell werden mitgenommen. Pumpe bleibt zu Hause.", "Tobias Wendt (Abstimmung mit Henrik)", "Zur Messe, 16.03.2027"]
+    ]
+  },
+  "grenze": "Fristen in der Original-Mail prüfen. In beiden Tests steht bei den Exponaten die Frist „Zur Messe, 16.03.2027“. Keine Mail nennt dafür eine Frist. Der 16.03. ist nur der erste Messetag.",
+  "datenschutz": true,
+  "video": "mailkette-aufgaben"
+}
