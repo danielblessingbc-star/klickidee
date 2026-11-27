@@ -15,7 +15,7 @@ const srv = createServer((q, s) => {
   if (!existsSync(f)) { s.writeHead(404); s.end('nf'); return; }
   s.writeHead(200, { 'content-type': MIME[extname(f)] || 'application/octet-stream' }); s.end(readFileSync(f));
 }).listen(0);
-const base = `http://127.0.0.1:${srv.address().port}`;
+const base = process.env.BASE_URL || `http://127.0.0.1:${srv.address().port}`; // BASE_URL=https://… prüft die echte Adresse
 const res = []; const ok = (n, b, d = '') => { res.push({ n, b, d }); console.log(`${b ? 'OK  ' : 'FEHLER'} ${n} ${d}`); };
 
 // alle HTML-Seiten
